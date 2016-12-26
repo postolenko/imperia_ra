@@ -391,6 +391,11 @@
 
 @media only screen and (max-width: 360px) {
 
+	h2 {
+	    font-size: 46px;
+	    line-height: 73px;
+	}
+
 	h1.logo {
 	    font-size: 53px;
 	    line-height: 75px;
