@@ -416,4 +416,8 @@
 	    top: 0;
 	}
 
+	.footer .soc-links-list li {
+	    padding: 10px 20px;
+	}
+
 }
