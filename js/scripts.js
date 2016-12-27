@@ -63,6 +63,15 @@ $(document).ready(function() {
 
         // ---------------------------------
 
+        $(".slide-mask").css({
+                          "width" : $(".about-us-slider").width() + "px",
+                          "height" : $(".about-us-slider").height() + "px"
+                        });
+
+        $(".slide-mask").offset({top : $(".about-us-slider").offset().top , left : $(".about-us-slider").offset().left});
+
+        // ----------------------------------
+
         getSliderShadowPosition();
 
         getBgLinesHeight();
@@ -203,10 +212,32 @@ $(document).ready(function() {
 
     // ------------------------------------------------------
 
-    $(".about-us-slide").moueenter(function() {
 
-        
-        
+    $(".slider-sect").append("<div class='slide-mask'></div>");
+
+    $(".slide-mask").css({
+                          "width" : $(".about-us-slider").width() + "px",
+                          "height" : $(".about-us-slider").height() + "px"
+                        });
+
+    $(".slide-mask").offset({top : $(".about-us-slider").offset().top , left : $(".about-us-slider").offset().left});
+
+
+
+    $(".slide-mask").bind({
+
+         mouseenter: function() {
+
+            $(".about-us-slide.slick-active .slide-image").animate({"opacity" : 0}, 700);
+
+        },
+
+        mouseleave: function() {
+
+            $(".about-us-slide.slick-active .slide-image").animate({"opacity" : 1}, 700);
+
+        }       
+
     });
 
     // ------------------------------------------------------
