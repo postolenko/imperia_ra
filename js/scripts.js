@@ -203,6 +203,14 @@ $(document).ready(function() {
 
     // ------------------------------------------------------
 
+    $(".about-us-slide").moueenter(function() {
+
+        
+        
+    });
+
+    // ------------------------------------------------------
+
     // Navigation scroll
 
         $(function() {

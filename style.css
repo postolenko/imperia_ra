@@ -1572,6 +1572,14 @@ h1.logo {
     border: 0px solid transparent;
 }
 
+.slide_image {
+    z-index: 2;
+}
+
+.slide_image_hover {
+    z-index: 1;
+}
+
 .about-us-slider-arrows {
     display: inline-block;
     vertical-align: bottom;
