@@ -699,6 +699,17 @@ a:active {
     z-index: 2;
 }
 
+.middle-line {
+    display: block;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin: 0 0 0 -1px;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+}
+
 .left-line {
     width: 7.7%;
     height: 100%;
@@ -1139,7 +1150,9 @@ a:active {
     width: auto;
     position: fixed;
     top: 50%;
-    right: 30px;
+    /*right: 30px;*/
+    /*right: 157px;*/
+    right: 100px;
     z-index: 20;
     margin: -94px 0 0 0;
     padding: 0;
@@ -1154,7 +1167,9 @@ a:active {
     vertical-align: top;
     position: fixed;
     top: 50%;
-    left: -90px;
+    /*left: -90px;*/
+    /*left: 40px;*/
+    left: -30px;
     margin: 10px 0 0 0;
     padding: 12px 5px;
     z-index: 20;
@@ -1825,12 +1840,21 @@ h1.logo {
 
 .article.right-image .article-num {
     top: -44px;
-    left: -3%;
+    /*left: -3%;*/
+    left: -2%;
 }
 
 .article.left-image .article-num {
     top: -44px;
     right: -5.5%;
+}
+
+.article.right-image .article-num-3 {
+    left: -2.6%;
+}
+
+.article.left-image .article-num-4 {
+    right: -6%;
 }
 
 .article-content {

@@ -55,6 +55,12 @@ $(document).ready(function() {
 
         // ---------------------------------
 
+        // For Popup
+
+        $(".callback-block").css({"top" : ( $(window).height() - $(".callback-block").height() ) / 2 + "px" });
+
+        // ---------------------------------
+
         getSliderShadowPosition();
 
     });
@@ -185,7 +191,7 @@ $(document).ready(function() {
 
         setTimeout(function() {
 
-            $(".left-line, .right-line").height($(".wrapper").outerHeight(true));
+            $(".left-line, .right-line, .middle-line").height($(".wrapper").outerHeight(true));
 
         }, 1000);        
 
@@ -216,6 +222,27 @@ $(document).ready(function() {
         });
 
     // ------------------------------------------------------
+
+    // Navigation scroll
+
+        $(function() {
+            $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                    if (target.length) {
+
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 900);
+                        return false;
+                    }
+                }
+            });
+        });
+
+
+    // -----------------
 
 
 

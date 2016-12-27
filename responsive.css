@@ -8,6 +8,22 @@
 		font-size: 197px;
 		line-height: 204px;
 	}
+/*
+	.callback-btn.fixed {
+	    left: 0;
+	}
+
+	.soc-links-list.fixed {
+	    right: 157px;
+	}*/
+
+	.callback-btn.fixed {
+	    left: -90px;
+	}
+
+	.soc-links-list.fixed {
+	    right: 10px;
+	}
 
 
 }
@@ -33,6 +49,8 @@
 
 
 @media only screen and (max-width: 1024px) {
+
+
 
 	.logo-block {
 	    padding: 20px 0 40px 0;
