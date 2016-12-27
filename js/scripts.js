@@ -38,6 +38,8 @@ $(document).ready(function() {
 
     getSliderShadowPosition();
 
+    getBgLinesHeight();
+
 
     $(window).resize(function() {
 
@@ -63,6 +65,8 @@ $(document).ready(function() {
 
         getSliderShadowPosition();
 
+        getBgLinesHeight();
+
     });
 
     // ------------------------------------------------------------
@@ -71,18 +75,6 @@ $(document).ready(function() {
 
         $(".slick-prev.slick-arrow").appendTo(".about-us-slider-arrows");
         $(".slick-next.slick-arrow").appendTo(".about-us-slider-arrows");
-
-    });
-
-    // ------------------------------------------------------------
-
-    $(function() {
-
-        // $(".services-sect").css({"overflow-x" : "hidden"});
-//     overflow-x: hidden;
-//     overflow-y: initial;
-//     outline: 2px solid green;
-// }
 
     });
 
@@ -186,19 +178,7 @@ $(document).ready(function() {
 
     });
 
-
-    $(function() {
-
-        setTimeout(function() {
-
-            $(".left-line, .right-line, .middle-line").height($(".wrapper").outerHeight(true));
-
-        }, 1000);        
-
-    });
-
-
-     // ------------------------------------------------------
+    // ------------------------------------------------------
 
         $(function() {
 
@@ -245,6 +225,18 @@ $(document).ready(function() {
     // -----------------
 
 
+    function getBgLinesHeight() {
+
+        setTimeout(function() {
+
+            $(".left-line, .right-line, .middle-line").height($(".wrapper").outerHeight(true));
+
+        }, 1000);
+
+    }
+
+
+    // ------------------
 
     function getSliderShadowPosition() {
 

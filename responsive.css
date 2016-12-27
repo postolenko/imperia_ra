@@ -339,17 +339,35 @@
 
 @media only screen and (max-width: 480px) {
 
+	.row {
+		padding: 0;
+	}
+
 	h2 {
-	    font-size: 60px;
-	    line-height: 80px;
+	    font-size: 45px;
+    	line-height: 73px;
 	    text-align: center !important;
 	}
 
+	h3 {
+	    font-size: 26px;
+	    line-height: 35px;
+	}
+
+	.tel-link {
+	    font-size: 26px;
+	    line-height: 29px;
+	}
+
 	h1.logo {
-	    font-size: 61px;
-	    line-height: 75px;
+	    font-size: 52px;
+	    line-height: 70px;
 	    letter-spacing: 4px;
 	    padding: 0 0 0 4px;
+	}
+
+	.callback-btn {
+	    width: 84%;
 	}
 
 	.head-resp-box .soc-links-list li:nth-child(1) {
@@ -365,11 +383,11 @@
 	}
 
 	.slider-sect h2 {
-		padding: 0;
+		padding: 0 0 0 8%;
 	}
 
 	.inner-col-sl-1 h3 {
-	    left: 2%;
+	    left: 8%;
 	}
 
 	.about-us-slider {
@@ -382,11 +400,45 @@
 
 	.slide-content-append {
 		margin: 0 0 0 1%;
+		padding: 30px 0 0 8%;
 	}
 
 	.popup-head h2 {
 	    font-size: 23px;
 	    line-height: 32px;
+	}
+
+	.sect-1-col.right {
+	    padding: 20px 7%;
+	}
+
+	.sect-1-col.right h3 {
+	    font-size: 37px;
+	    line-height: 39px;
+	}
+
+	.article .row {
+		padding: 0 8%;
+	}
+
+	.article .left,
+	.article .right {
+	    background: transparent;
+	}
+
+	.article {
+	    margin: 25px 0;
+	    padding: 10px 0;
+	    background: rgba(0, 0, 0, .6);
+	}
+
+	button.article-button {
+	    width: 96%;
+	}
+
+	.article button.article-button {
+	    width: 104%;
+	    margin: 20px 0 20px -2%;
 	}
 
 	.image_1-box {
@@ -404,21 +456,47 @@
 		left: -22%;
 	}
 
+	.clients-h3 {
+	    padding: 15px 8%;
+	}
+
+	.row-th {
+	    padding: 0;
+	}
+
+	.contacts-sect .col-1 {
+	    padding: 0 7%;
+	}
+
+	.contacts-sect h3 {
+	    font-size: 28px;
+	    line-height: 32px;
+	}
+
+	.contacts-sect p {
+	    font-size: 22px;
+	    line-height: 26px;
+	}
+
 }
 
 
 @media only screen and (max-width: 360px) {
 
 	h2 {
-	    font-size: 46px;
+	    font-size: 45px;
 	    line-height: 73px;
 	}
 
-	h1.logo {
-	    font-size: 53px;
-	    line-height: 75px;
+/*	h1.logo {
+	    font-size: 44px;
+	    line-height: 70px;
 	    letter-spacing: 4px;
 	    padding: 0 0 0 4px;
+	}*/
+
+	.slider-sect.row {
+		padding: 0;
 	}
 
 	.thumbnails {
