@@ -157,15 +157,19 @@ $(document).ready(function() {
 
             $(".respmenubtn").click(function() {
 
-                $(".respmenubtn").toggleClass("respmenubtn-active");
+                // $(".respmenubtn").toggleClass("respmenubtn-active");
 
                 if( $(".main-nav-resp-box").is(":hidden") ) {
 
                     $(".main-nav-resp-box").fadeIn(300);
 
+                    $(".respmenubtn").addClass("respmenubtn-active");
+
                 } else if ( $(".main-nav-resp-box").is(":visible") ) {
 
                     $(".main-nav-resp-box").fadeOut(300);
+
+                    $(".respmenubtn").removeClass("respmenubtn-active");
 
                 }
 
