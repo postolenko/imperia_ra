@@ -172,6 +172,13 @@ $(document).ready(function() {
 
             });
 
+
+            $(".main-nav-link").click(function() {
+
+                $(".main-nav-resp-box").fadeOut(300);
+
+            });
+
         });
 
 
@@ -212,13 +219,15 @@ $(document).ready(function() {
         $(function() {
             $('a[href*=#]:not([href=#])').click(function() {
                 if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
                     var target = $(this.hash);
                     target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
                     if (target.length) {
 
                         $('html,body').animate({
                             scrollTop: target.offset().top
-                        }, 900);
+                        }, 900);                        
+
                         return false;
                     }
                 }

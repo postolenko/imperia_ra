@@ -8,14 +8,6 @@
 		font-size: 197px;
 		line-height: 204px;
 	}
-/*
-	.callback-btn.fixed {
-	    left: 0;
-	}
-
-	.soc-links-list.fixed {
-	    right: 157px;
-	}*/
 
 	.callback-btn.fixed {
 	    left: -90px;
@@ -71,16 +63,7 @@
 	    letter-spacing: 20px;
 	}
 
-	/*.inner-col-sl-1 h3 {
-		display: inline-block;
-		vertical-align: top;
-		width: auto;
-	    top: 80px;
-	    left: 0;
-	}*/
-
 	.about-us-slider {
-	    /*width: 71%;*/
 		width: 500px;
 	}
 
@@ -239,7 +222,6 @@
 
 	.article {
 	    padding: 45px 0;
-	    /*z-index: 10;*/
 	}
 
 	.article .article-num {
@@ -487,13 +469,6 @@
 	    font-size: 45px;
 	    line-height: 73px;
 	}
-
-/*	h1.logo {
-	    font-size: 44px;
-	    line-height: 70px;
-	    letter-spacing: 4px;
-	    padding: 0 0 0 4px;
-	}*/
 
 	.slider-sect.row {
 		padding: 0;
