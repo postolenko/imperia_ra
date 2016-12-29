@@ -177,6 +177,8 @@ $(document).ready(function() {
 
                 $(".main-nav-resp-box").fadeOut(300);
 
+                $(".respmenubtn").removeClass("respmenubtn-active");
+
             });
 
         });
